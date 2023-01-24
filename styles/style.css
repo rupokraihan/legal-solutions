@@ -20,7 +20,12 @@
     border-radius: 8px;
     margin-right: 10px;
 }
-
+.contact-card{
+    width: 50%;
+    height: 285px;
+    background-color: #F3F3F3;
+    border: 1px solid #CFCFCF;
+}
 
 
 
@@ -31,6 +36,9 @@
 
 /* for responsive */
 @media only screen and (max-width:650px){
-    
+    .contact-card{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 5px;
     }
 }
